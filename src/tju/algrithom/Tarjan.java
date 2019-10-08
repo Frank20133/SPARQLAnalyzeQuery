@@ -68,7 +68,7 @@ public class Tarjan {
 
         //输出HashMap并写入文件
         BufferedWriter bufferedWriter = new BufferedWriter(new FileWriter(OUT_PATH));
-        System.out.println("?node               " + "|" + "             ?tj");
+        System.out.println("?node               " + "|" + "             ?scc");
         System.out.println("-----------------------------------------------");
         for (Map.Entry<String, Integer> entry : list) {
             bufferedWriter.write(entry.getKey() + " -----> " + entry.getValue() + "\r\n");
